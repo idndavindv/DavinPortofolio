@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Curiculum Vitae</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div class="logo" data-aos="fade-right" data-aos-duration="1000">
+          <a href="#home">Davin</a>
+        </div>
+        <div class="nav-links">
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            <a href="#home">Home</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            <a href="#about">About</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            <a href="#skills">Skills</a>
+          </div>
+          <div
+            class="link"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+            data-aos-delay="100"
+          >
+            <a href="#certificates">Certificates</a>
+          </div>
+          <div class="contact-button"><a href="#contact">Contact Me</a></div>
+        </div>
+      </div>
+
+      <!-- hamburger-menu -->
+      <div class="hamburger" onclick="hamburger()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <!-- dropdown menu -->
+      <div class="dropdown">
+        <div class="hamburger-links">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Skills</a>
+          <a href="#">Certificates</a>
+          <a href="#">Contact Me</a>
+          <div class="cancel" onclick="cancel()">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <section class="main-container">
+      <div class="image">
+        <img
+          src="assets/src/img/WIN_20250806_11_35_50_Pro.jpg"
+          alt="hero image"
+        />
+      </div>
+      <div class="content">
+        <h2>hey i'm<span> Davin</span></h2>
+        <div class="typewriter">I'm a<span></span></div>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed, porro
+          quia dolorum inventore quaerat laudantium! Autem, consequatur
+          doloremque! Architecto nisi ullam laborum quasi asperiores, dolor esse
+          accusamus omnis cupiditate nobis!
+        </p>
+        <div class="social-links">
+          <a href="https://github.com/idndavindv" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/davin-kurniawan-750838260/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://x.com/Ku89208801Davin" target="_blank"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+          <a href="https://www.instagram.com/davinnkurniawann/" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+        <div class="btn">
+          <button>Download CV</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="about-container">
+        <!-- Deskripsi -->
+        <div class="about-text">
+          <h3>Hello, I'm Davin</h3>
+          <p>
+            I am a passionate student and web developer who loves creating
+            modern, responsive, and user-friendly websites. My focus is on
+            frontend development, but I also explore backend technologies like
+            Laravel to expand my skills.
+          </p>
+          <p>
+            I enjoy learning new technologies, working on exciting projects, and
+            continuously improving my knowledge in web development.
+          </p>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+      <h2>My Skills & Tools</h2>
+      <p class="subtitle">
+        Here are some of my main programming skills and tools I use
+      </p>
+
+      <div class="skills-container">
+        <!-- HTML -->
+        <div class="skill-card">
+          <i class="fab fa-html5"></i>
+          <h3>HTML</h3>
+          <div class="progress">
+            <div class="progress-bar" style="--value: 90%"></div>
+          </div>
+          <span class="percent">90%</span>
+        </div>
+
+        <!-- CSS -->
+        <div class="skill-card">
+          <i class="fab fa-css3-alt"></i>
+          <h3>CSS</h3>
+          <div class="progress">
+            <div class="progress-bar" style="--value: 85%"></div>
+          </div>
+          <span class="percent">85%</span>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="skill-card">
+          <i class="fab fa-js"></i>
+          <h3>JavaScript</h3>
+          <div class="progress">
+            <div class="progress-bar" style="--value: 70%"></div>
+          </div>
+          <span class="percent">70%</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <h2>Sertifikat & Penghargaan</h2>
+        <p class="subtitle">Pencapaian dan sertifikasi profesional saya</p>
+        
+        <div class="certificates-grid">
+            <div class="certificate-card">
+                <img src="https://placehold.co/300x200/2563eb/white?text=Sertifikat+1" alt="Sertifikat 1">
+                <h3>Web Developer Certification</h3>
+                <p>Dicoding Indonesia - 2023</p>
+            </div>
+            
+            <div class="certificate-card">
+                <img src="https://placehold.co/300x200/2563eb/white?text=Sertifikat+2" alt="Sertifikat 2">
+                <h3>Frontend Development</h3>
+                <p>Google - 2022</p>
+            </div>
+            
+            <div class="certificate-card">
+                <img src="https://placehold.co/300x200/2563eb/white?text=Sertifikat+3" alt="Sertifikat 3">
+                <h3>React JS Masterclass</h3>
+                <p>Udemy - 2022</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+      <h2>Testimonials</h2>
+      <p class="subtitle">What people say about my work</p>
+      
+      <div class="testimonials-container">
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <div class="quote-icon">"</div>
+            <p class="testimonial-text">
+              Davin is an exceptional developer who delivered our project ahead of schedule. His attention to detail and problem-solving skills are truly impressive.
+            </p>
+          </div>
+          <div class="testimonial-author">
+            <div class="author-info">
+              <h4>John Smith</h4>
+              <p>CEO at Tech Solutions</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <div class="quote-icon">"</div>
+            <p class="testimonial-text">
+              Working with Davin was a pleasure. He transformed our vision into a beautiful, functional website that exceeded our expectations.
+            </p>
+          </div>
+          <div class="testimonial-author">
+            <div class="author-info">
+              <h4>Sarah Johnson</h4>
+              <p>Marketing Director</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="testimonial-content">
+            <div class="quote-icon">"</div>
+            <p class="testimonial-text">
+              Davin's technical expertise and creative approach helped us achieve our goals. Highly recommended for any web development project.
+            </p>
+          </div>
+          <div class="testimonial-author">
+            <div class="author-info">
+              <h4>Michael Chen</h4>
+              <p>Project Manager</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <p class="subtitle">Feel free to reach out to me</p>
+
+      <div class="contact-container">
+        <form action="#" class="contact-form">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Enter your name"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="email">Your Email</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Your message..."
+              rows="5"
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="contact-btn">Send Message</button>
+        </form>
+      </div>
+    </section>
+    <br />
+
+    <footer class="footer">
+      <p>&copy; 2025 Davin. All Rights Reserved.</p>
+    </footer>
+  </body>
+  <script>
+    function hamburger() {
+      // buat nampung variable dari navbar
+      const navbar = document.querySelector(".dropdown");
+      navbar.style.transform = "translateY(0px)";
+    }
+
+    function cancel() {
+      const navbar = document.querySelector(".dropdown");
+      navbar.style.transform = "translateY  (-500px)";
+    }
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</html>
