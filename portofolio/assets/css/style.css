@@ -646,44 +646,6 @@ section {
   }
 }
 
-
-/* Responsive */
-@media screen and (max-width: 768px) {
-  .testimonials-container {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-  
-  .testimonial-card {
-    padding: 18px;
-    min-height: 200px;
-  }
-  
-  .testimonials {
-    padding: 40px 15px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .testimonial-card {
-    padding: 15px;
-    min-height: 180px;
-  }
-  
-  .testimonial-text {
-    font-size: 0.9rem;
-  }
-  
-  .author-info h4 {
-    font-size: 0.95rem;
-  }
-  
-  .author-info p {
-    font-size: 0.8rem;
-  }
-}
-
-
 .contact {
   padding: 80px 20px;
   background-color: var(--background-color);
